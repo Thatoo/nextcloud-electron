@@ -9,7 +9,7 @@
     "provider": "github",
     "releaseType": "release",
     "existingType": "release",
-    "publishingType": "release",
+    "publishingType": "release"
   },  
   "scripts": {
     "dev": "vite",
