@@ -37,8 +37,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@Thatoo/nextcloud-electron'
       - run: npm ci
-      - run: npm install
-      - run: npm run build -d -- --linux
       - run: npm publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
