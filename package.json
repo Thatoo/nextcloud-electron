@@ -3,7 +3,7 @@
   "repository": "git+https://github.com/Thatoo/nextcloud-electron.git",
   "version": "0.0.1",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@Thatoo:registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "dev": "vite",
