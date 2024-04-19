@@ -1,6 +1,6 @@
 {
   "name": "@Thatoo/nextcloud-electron",
-  "repository": "https://github.com/Thatoo/nextcloud-electron.git",
+  "repository": "git+https://github.com/Thatoo/nextcloud-electron.git",
   "version": "0.0.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
