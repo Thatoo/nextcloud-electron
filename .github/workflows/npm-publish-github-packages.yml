@@ -23,8 +23,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: destination
-          path: |
-            app-build
+          path: app-build
       - run: ls app-build
 
   publish-gpr:
