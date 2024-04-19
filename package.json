@@ -1,10 +1,16 @@
 {
-  "name": "@frontbastard/nextcloud-electron",
-  "repository": "https://github.com/frontbastard/nextcloud-electron.git",
+  "name": "@Thatoo/nextcloud-electron",
+  "repository": "git+https://github.com/Thatoo/nextcloud-electron.git",
   "version": "0.0.1",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@Thatoo:registry": "https://npm.pkg.github.com/"
   },
+  "publish": {
+    "provider": "github",
+    "releaseType": "release",
+    "existingType": "release",
+    "publishingType": "release"
+  },  
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && electron-builder -c electron-builder.json5",
