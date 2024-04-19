@@ -25,6 +25,7 @@ jobs:
           name: destination
           path: |
             app-build
+      - run: ls dist
 
   publish-gpr:
     needs: build
