@@ -5,6 +5,13 @@
   "publishConfig": {
     "@Thatoo:registry": "https://npm.pkg.github.com/"
   },
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+    "existingType": "release"
+    "publishingType": "release"
+  }
+  
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && electron-builder -c electron-builder.json5",
